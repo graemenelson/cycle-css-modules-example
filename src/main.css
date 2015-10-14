@@ -1,0 +1,25 @@
+.counter {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding: 20px 20px;
+  border: 2px solid #efefef;
+  text-align: center;
+}
+
+.actions {
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 100%;
+  padding: .5em 1em;
+  color: rgba(0,0,0,.8);
+  border: 1px solid #999;
+  border: 0 rgba(0,0,0,0);
+  background-color: #DADFE1;
+  text-decoration: none;
+  border-radius: 2px;
+  margin: 5px 5px;
+}

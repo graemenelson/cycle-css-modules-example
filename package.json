@@ -1,0 +1,29 @@
+{
+  "name": "cycle-css-modules-example",
+  "version": "0.1.0",
+  "description": "An example to showcase css-modules with cyclejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cyclejs",
+    "css-modules"
+  ],
+  "author": "Graeme Nelson",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.19.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "dependencies": {
+    "@cycle/core": "^3.1.0",
+    "@cycle/dom": "^5.3.1"
+  }
+}
