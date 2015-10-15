@@ -1,10 +1,4 @@
-.counter {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  padding: 20px 20px;
-  border: 2px solid #efefef;
-  text-align: center;
-}
+
 
 .actions {
   text-align: center;
@@ -22,4 +16,17 @@
   text-decoration: none;
   border-radius: 2px;
   margin: 5px 5px;
+}
+
+.counter {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding: 20px 20px;
+  border: 2px solid #efefef;
+  text-align: center;
+}
+
+.increment,
+.decrement {
+  composes: button;
 }
